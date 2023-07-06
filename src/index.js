@@ -13,8 +13,8 @@ app.use(express.json());
 const productController = require("./products/product.controller");
 app.use("/products", productController);
 
-const PORT = process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
-app.listen(PORT, () => {
-  console.log("API Running in port : " + PORT);
+app.listen(port, () => {
+  console.log(`API Running in port : ${port}`);
 });
