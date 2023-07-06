@@ -13,5 +13,5 @@ app.use("/products", productController);
 const PORT = process.env.PORT || process.env.PORT_LOCAL;
 
 app.listen(PORT, () => {
-  console.log("Express API Running in port : " + PORT);
+  console.log("API Running in port : " + PORT);
 });
